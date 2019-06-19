@@ -1,7 +1,7 @@
-#include "particle.h"
+#include "../header/particle.h"
 #include<stdlib.h>
 #include<math.h>
-#include "screen.h"
+#include "../header/screen.h"
 using namespace caveofprogramming;
 const double pi=3.14159265358979323846;
 Particle::Particle(void)

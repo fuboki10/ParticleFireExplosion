@@ -1,11 +1,11 @@
 
 #include <iostream>
 #include <SDL.h>
-#include "Screen.h"
+#include "../header/screen.h"
 #include<math.h>
 #include<stdlib.h>
 #include<time.h>
-#include "swarm.h"
+#include "../header/swarm.h"
 using namespace std;
 using namespace caveofprogramming;
 const int h_width=Screen::SCREEN_WIDTH/2;
