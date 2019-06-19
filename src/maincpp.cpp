@@ -11,6 +11,9 @@ using namespace caveofprogramming;
 const int h_width=Screen::SCREEN_WIDTH/2;
 const int h_height =Screen::SCREEN_HEIGHT/2;
 unsigned char alternateColor = 1;
+
+#pragma comment(lib, "Ws2_32.lib")
+
 int main(int argc, char *argv[]) {
 
 	srand(time(NULL));
